@@ -1,7 +1,7 @@
 <template>
    <div>
        <button class="add" @click="$store.dispatch('add')">自增</button>
-       <h2>我是 Home组件-----{{ count }}</h2>
+       <h2>我是 Home组件----{{ count }}</h2>
    </div>
 </template>
 
